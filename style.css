@@ -1,0 +1,10 @@
+canvas {
+    animation-name : Color;
+    animation-duration : 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Color {
+    from { box-shadow: 1px 1px 40px purple;}
+    to { box-shadow: 1px 1px 40px red;}
+}
